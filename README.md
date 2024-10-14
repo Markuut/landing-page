@@ -7,5 +7,5 @@ Skills and tools practiced in this exercise include:
 
 HTML and CSS
 Use of flexbox in CSS
-practicing WebDev standards
+Practicing WebDev standards
 Use of GitHub in a project-oriented manner

@@ -7,45 +7,60 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
+    <header class="dark-background-color">
+        <div class="center-content header-logo-text white-text logo">
             <a href="index.html"><img src="images/coffee-bean-7059441_1280.png" alt="Logo" width="50" height="50"></a>
-            <p>Header Logo</p>
+            <p>The Coffee Website</p>
         </div>
-        <nav class="nav-links">
-            <ul>
-                <li><a href="navLink1.html">header link one</a></li>
-                <li><a href="navLink2.html">header link two</a></li>
-                <li><a href="navLink3.html">header link three</a></li>
+        <nav class="center-content">
+            <ul class="nav-links">
+                <li><a class="hero-secondary-text" href="#navLink1.html">header link one</a></li>
+                <li><a class="hero-secondary-text" href="#navLink2.html">header link two</a></li>
+                <li><a class="hero-secondary-text" href="#navLink3.html">header link three</a></li>
             </ul>
         </nav>
     </header>
-    <div class="main-text">
-        <h1>This website is awesome</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas neque felis, id egestas justo tincidunt vitae. Vestibulum condimentum, erat ut mollis ultricies, risus ex fringilla urna, id accumsan arcu ligula at massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac pretium tortor. Suspendisse at volutpat diam.</p>
-        <button>Sign up</button>
-    </div>
-    <div class="secondary-text-with-images">
-        <h2>some random information.</h2>
-        <div class="list-of-images-and-text">
-            <ul>
-                <li><div> </div><p>here will be a picture above this text and this text will be some subtext about it</p></li>
-                <li><div> </div><p>here will be a picture above this text and this text will be some subtext about it</p></li>
-                <li><div> </div><p>here will be a picture above this text and this text will be some subtext about it</p></li>
-                <li><div> </div><p>here will be a picture above this text and this text will be some subtext about it</p></li>
-            </ul>
+    <div class="main-container dark-background-color">
+        <div class="main-text-section">
+            <h1 class="hero-main-text white-text">This website is awesome</h1>
+            <p class="hero-secondary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas neque felis, id egestas justo tincidunt vitae. Vestibulum condimentum, erat ut mollis ultricies, risus ex fringilla urna, id accumsan arcu ligula at massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac pretium tortor. Suspendisse at volutpat diam.</p>
+            <button>Sign up</button>
+        </div>
+        <div class="main-image-section">
+            <img src="images/pexels-kaboompics-6347.jpg" alt="Smile coffee">
         </div>
     </div>
-    <div class="quote-box">
-        <p class="quote">"here will be some quote, man its great to be her and im having a fantastic day. Cant wait to see how  this will look once it has been done."</p>
+    <div class="info-container">
+        <h2 class="information-header-text dark-text header-logo-text">Some random information.</h2>
+        <div class="image-row">
+            <figure class="image-item">
+                <img src="images/coffeeImage1.jpg" alt="Coffee image 1">
+                <figcaption>Heres some text about this coffee.</figcaption>
+            </figure>
+            <figure class="image-item">
+                <img src="images/coffeeImage2.jpg" alt="Coffee image 2">
+                <figcaption>Man, this coffee do be looking good tho.</figcaption>
+            </figure>
+            <figure class="image-item">
+                <img src="images/coffeeImage3.jpg" alt="Coffee image 3">
+                <figcaption>Heres even more coffee. Not as good as the other one imo</figcaption>
+            </figure>
+            <figure class="image-item">
+                <img src="images/coffeeImage4.jpg" alt="Coffee image 4">
+                <figcaption>Coffee, coffee, coffee, coffee, the word coffee looks weird now...</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="quote-container center-content quote-section-color">
+        <p class="quote-text dark-text">"This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice."</p>
         <p class="quote-name">- Thor, God of Thunder</p>
     </div>
-    <div class="sign-up-box">
+    <div class="sign-up-container">
         <p>here will be some text about signing up and a button</p>
         <button>Sign up</button>
     </div>
-    <footer class="footer">
-        <p>Copyright @ The Odin Project</p>
+    <footer class="dark-background-color center-content hero-secondary-text">
+        <p>Copyright @ The Odin Project / Marko</p>
     </footer>
 </body>
 </html>

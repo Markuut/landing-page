@@ -54,7 +54,7 @@ footer {
 }
 
 .information-header-text {
-    font-weight: 900px;
+    font-weight: bold;
     padding: 25px;
     text-align: center;
 }
@@ -112,7 +112,8 @@ footer {
 }
 
 .quote-name {
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: bold;
     color: #1f2937;
     align-self: flex-end;
 }
@@ -138,7 +139,7 @@ footer {
 
 .hero-main-text {
     font-size: 48px;
-    font-weight: 900px;
+    font-weight: bold;
 }
 
 .header-logo-text {
@@ -165,6 +166,29 @@ footer {
 
 .quote-section-color {
     background-color: #e5e7eb;
+}
+
+.sign-up-container {
+    display: flex;
+    margin: 100px 22vw;
+    padding: 2vw;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.sign-up-text {
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.sign-up-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up-container button {
+    margin-right: 50px;
+    border: #E5E7EB solid 2px;
 }
 
 button {

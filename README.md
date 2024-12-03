@@ -5,13 +5,13 @@ In this exercise, we will start everything from scratch and get to practice the 
 ***************************************************************************************************
 Skills and tools practiced in this exercise include:
 
-HTML and CSS
-Use of flexbox in CSS
-Practicing WebDev standards
-Use of GitHub in a project-oriented manner
+- HTML and CSS
+- Use of flexbox in CSS
+- Practicing WebDev standards
+- Use of GitHub in a project-oriented manner
 
 ***************************************************************************************************
-## Credits
+### Credits
 
 The images used in this project have been taken from Pixabay and are free to use under the Pixabay Content License.
 
